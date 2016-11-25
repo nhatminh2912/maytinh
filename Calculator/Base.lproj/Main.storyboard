@@ -287,7 +287,7 @@
                                     <constraint firstItem="hmp-02-O8g" firstAttribute="height" secondItem="BNa-pN-8sD" secondAttribute="height" id="zhi-iB-V18"/>
                                 </constraints>
                             </view>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ut9-Cu-WgA" userLabel="Middle View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ut9-Cu-WgA" userLabel="Middle View">
                                 <rect key="frame" x="0.0" y="264" width="375" height="62"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQi-6E-O5d" customClass="OperatorsButton" customModule="Calculator" customModuleProvider="target">

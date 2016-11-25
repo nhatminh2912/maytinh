@@ -96,8 +96,7 @@ class ViewController: UIViewController {
             if isEndOperation
             {
                 daucham = false
-                firstNumber = inputoperation
-                isEndOperation = false
+                firstNumber = firstNumber + inputoperation
             }
             else
             {
@@ -109,6 +108,8 @@ class ViewController: UIViewController {
             print("ban can nhap so vao truoc khi thuc hien tinh toan")
         }
         isTapping = false
+        
+        
         
         if operation == "%"
         {
